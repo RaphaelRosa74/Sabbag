@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { AnimatePresence } from "framer-motion";
 import { Logo as LogoImg } from '@/utils/logo'
-import { useIsMobile } from "@/hooks/use-mobile";
 import * as S from './styles'
 
 const navLinks = [
