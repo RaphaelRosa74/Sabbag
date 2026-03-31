@@ -594,15 +594,9 @@ Error generating stack: `+s.message+`
   }
 `,Mw=R.div`
   display: flex;
-  flex-direction: column;
-  gap: 1rem;
   align-items: center;
   margin-top: 3rem;
-
-  @media (min-width: ${({theme:e})=>e.breakpoints.sm}) {
-    flex-direction: row;
-    justify-content: center;
-  }
+  justify-content: center;
 `,c8=R.a`
   display: inline-flex;
   align-items: center;
@@ -620,6 +614,12 @@ Error generating stack: `+s.message+`
 `,Tw=R(c8)`
   background: ${({theme:e})=>e.colors.primary};
   color: ${({theme:e})=>e.colors.primaryForeground};
+  width: 100%;
+  justify-content: center;
+
+  @media (min-width: ${({theme:e})=>e.breakpoints.md}) {
+    width: auto;
+  }
 `;R(c8)`
   background: transparent;
   border: 2px solid ${({theme:e})=>e.colors.primary};
@@ -649,8 +649,14 @@ Error generating stack: `+s.message+`
   justify-content: center;
   cursor: pointer;
   transition: background 0.2s;
-  &:hover { background: rgba(0, 0, 0, 0.6); }
-`,Dw=R(f8)`left: 0.75rem;`,Rw=R(f8)`right: 0.75rem;`,Fw=R.div`
+  &:hover {
+    background: rgba(0, 0, 0, 0.6);
+  }
+`,Dw=R(f8)`
+  left: 0.75rem;
+`,Rw=R(f8)`
+  right: 0.75rem;
+`,Fw=R.div`
   position: absolute;
   bottom: 0.75rem;
   left: 50%;
