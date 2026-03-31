@@ -66,15 +66,9 @@ export const MapWrapper = styled.div`
 
 export const CtaWrapper = styled.div`
   display: flex;
-  flex-direction: column;
-  gap: 1rem;
   align-items: center;
   margin-top: 3rem;
-
-  @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
-    flex-direction: row;
-    justify-content: center;
-  }
+  justify-content: center;
 `;
 
 export const CtaButton = styled.a`
@@ -96,6 +90,12 @@ export const CtaButton = styled.a`
 export const CtaPrimary = styled(CtaButton)`
   background: ${({ theme }) => theme.colors.primary};
   color: ${({ theme }) => theme.colors.primaryForeground};
+  width: 100%;
+  justify-content: center;
+
+  @media (min-width: ${({ theme }) => theme.breakpoints.md}) {
+    width: auto;
+  }
 `;
 
 export const CtaSecondary = styled(CtaButton)`
@@ -133,11 +133,17 @@ export const CarouselButton = styled.button`
   justify-content: center;
   cursor: pointer;
   transition: background 0.2s;
-  &:hover { background: rgba(0, 0, 0, 0.6); }
+  &:hover {
+    background: rgba(0, 0, 0, 0.6);
+  }
 `;
 
-export const PrevButton = styled(CarouselButton)`left: 0.75rem;`;
-export const NextButton = styled(CarouselButton)`right: 0.75rem;`;
+export const PrevButton = styled(CarouselButton)`
+  left: 0.75rem;
+`;
+export const NextButton = styled(CarouselButton)`
+  right: 0.75rem;
+`;
 
 export const Dots = styled.div`
   position: absolute;
