@@ -538,10 +538,6 @@ Error generating stack: `+s.message+`
   color: ${({theme:e})=>e.colors.mutedForeground};
   font-size: 0.875rem;
   line-height: 1.6;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 `,pw=[{icon:lC,title:"Diagnósticos clínicos",description:"Desenvolvimento de recursos emocionais para lidar com desafios clínicos, promovendo autonomia e direção a objetivos pessoais."},{icon:hC,title:"Sofrimento persistente",description:"Quando surgem mudanças emocionais como cansaço frequente, perda de interesse ou pensamentos negativos recorrentes."},{icon:yC,title:"Autoconhecimento",description:"Espaço para compreender seus padrões emocionais e comportamentais, desenvolvendo maior consciência sobre si."},{icon:vC,title:"Qualidade de vida",description:"Relações mais saudáveis, melhor comunicação e maior equilíbrio emocional no dia a dia."}],Cw=()=>h.jsx(iw,{id:"para-quem",children:h.jsx(sw,{children:h.jsxs(Dt.div,{initial:{opacity:0,y:20},whileInView:{opacity:1,y:0},viewport:{once:!0,margin:"-100px"},transition:{duration:.6},children:[h.jsx(ow,{children:"Para quem a Psicoterapia é indicada"}),h.jsx(aw,{children:"A terapia pode ajudar em diferentes contextos:"}),h.jsx(lw,{children:pw.map((e,t)=>h.jsx(Dt.div,{initial:{opacity:0,y:20},whileInView:{opacity:1,y:0},viewport:{once:!0},transition:{duration:.5,delay:t*.1},children:h.jsxs(uw,{children:[h.jsxs(cw,{children:[h.jsx(fw,{children:h.jsx(e.icon,{size:28})}),h.jsx(dw,{children:e.title})]}),h.jsx(hw,{children:e.description})]})},e.title))})]})})}),mw="/assets/consultorio1-CeMuAjR7.jpeg",gw="/assets/consultorio2-Coc0UeeS.jpeg",yw="/assets/connsultorio3-CNnLOUWO.jpeg",vw=R.section`
   padding: 6rem 0;
   background: ${({theme:e})=>e.colors.secondary};
