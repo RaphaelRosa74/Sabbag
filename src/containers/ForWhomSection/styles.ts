@@ -78,8 +78,4 @@ export const CardDescription = styled.p`
   color: ${({ theme }) => theme.colors.mutedForeground};
   font-size: 0.875rem;
   line-height: 1.6;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 `;
