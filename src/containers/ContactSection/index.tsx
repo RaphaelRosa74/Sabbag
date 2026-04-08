@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { MessageCircle, Mail, Instagram } from "lucide-react";
-import * as S from './styles'
+import * as S from "./styles";
 
 const ContactSection = () => {
   return (
@@ -20,7 +20,7 @@ const ContactSection = () => {
 
           <S.ButtonsRow>
             <S.PrimaryButton
-              href="https://wa.me/5511921024433?text=Olá,+gostaria+de+mais+informações+sobre+as+sessões+de+psicoterapia."
+              href="https://wa.me/5511921024433?text=Olá,+gostaria+de+saber+mais+detalhes+sobre+as+sessões+de+terapia."
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -29,7 +29,7 @@ const HelpSection = () => {
           </S.TextBlock>
 
           <S.CtaLink
-            href="https://wa.me/5511921024433?text=Olá,+gostaria+de+agendar+uma+consulta."
+            href="https://wa.me/5511921024433?text=Olá,+gostaria+de+saber+mais+detalhes+sobre+as+sessões+de+terapia."
             target="_blank"
             rel="noopener noreferrer"
           >

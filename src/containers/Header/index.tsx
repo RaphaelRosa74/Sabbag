@@ -36,7 +36,7 @@ const Header = () => {
             </S.NavItem>
           ))}
           <S.CtaButton
-            href="https://wa.me/5511921024433?text=Olá,+gostaria+de+agendar+uma+consulta."
+            href="https://wa.me/5511921024433?text=Olá,+gostaria+de+saber+mais+detalhes+sobre+as+sessões+de+terapia."
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -66,7 +66,7 @@ const Header = () => {
                 </S.MobileNavItem>
               ))}
               <S.MobileCtaButton
-                href="https://wa.me/5511921024433?text=Olá,+gostaria+de+agendar+uma+consulta."
+                href="https://wa.me/5511921024433?text=Olá,+gostaria+de+saber+mais+detalhes+sobre+as+sessões+de+terapia."
                 target="_blank"
                 rel="noopener noreferrer"
               >
