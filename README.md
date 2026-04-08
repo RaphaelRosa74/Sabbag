@@ -1,73 +1,133 @@
-# Welcome to your Lovable project
+# 🧠 Gabriel Sabbag | Psicólogo
 
-## Project info
+🌐 **Acesse o site:** https://psigabrielsabbag.com/
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 📌 Sobre o Projeto
 
-There are several ways of editing your application.
+Este projeto é um site institucional desenvolvido para apresentar o trabalho profissional do psicólogo **Gabriel Sabbag**.
 
-**Use Lovable**
+O objetivo é oferecer uma presença digital profissional, transmitindo credibilidade, clareza e acolhimento, além de facilitar o contato para novos pacientes.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+O site apresenta informações sobre:
 
-Changes made via Lovable will be committed automatically to this repo.
+- Atuação clínica
+- Abordagens terapêuticas
+- Modalidades de atendimento
+- Informações de contato
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🎯 Objetivo
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Criar uma plataforma moderna, responsiva e profissional para:
 
-Follow these steps:
+- Divulgar serviços de psicoterapia
+- Explicar as abordagens utilizadas
+- Facilitar o agendamento de consultas
+- Fortalecer a presença digital profissional
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🛠 Tecnologias Utilizadas
 
-# Step 3: Install the necessary dependencies.
-npm i
+- React
+- Styled Components
+- JavaScript
+- HTML5
+- CSS3
+- Framer Motion (animações)
+- Lucide React (ícones)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+---
+
+## 📂 Estrutura do Projeto
+
+```
+
+src/
+├── components/
+├── pages/
+├── styles/
+├── assets/
+└── App.jsx
+
+````
+
+---
+
+## 🚀 Como Executar o Projeto Localmente
+
+### 1️⃣ Clone o repositório
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+````
+
+### 2️⃣ Acesse a pasta do projeto
+
+```bash
+cd nome-do-projeto
+```
+
+### 3️⃣ Instale as dependências
+
+```bash
+npm install
+```
+
+### 4️⃣ Execute o projeto
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+O projeto estará disponível em:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+http://localhost:3000
+```
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📱 Responsividade
 
-## What technologies are used for this project?
+O site foi desenvolvido com foco em:
 
-This project is built with:
+* 📱 Mobile
+* 💻 Desktop
+* 📲 Tablets
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🎨 Design
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+O design foi pensado para transmitir:
 
-## Can I connect a custom domain to my Lovable project?
+* Profissionalismo
+* Acolhimento
+* Clareza
+* Modernidade
 
-Yes, you can!
+Com tipografia elegante e layout minimalista.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 🌎 Deploy
+
+O projeto está publicado em domínio próprio:
+
+🔗 [https://psigabrielsabbag.com/](https://psigabrielsabbag.com/)
+
+---
+
+## 👨‍💻 Desenvolvedor
+
+Projeto desenvolvido por **Raphael Rosa**.
+
+---
+
+## 📄 Licença
+
+Este projeto é de uso institucional e profissional.
